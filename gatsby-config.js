@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Sheng`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Sheng - Web Developer. 3D Printing Geek. Fellow Resident Association Enthusiast.`,
+    description: `I’m passionate about improving the lives of professionals and organizations by utilizing new technologies`,
     author: `Sheng`,
+    keywords: `Web Developer, Malaysia, 3D Printing, Resident Association`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
