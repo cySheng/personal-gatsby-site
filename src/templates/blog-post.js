@@ -13,7 +13,7 @@ export default function Template({
     <Layout>
       <SEO title="Blog" />
       <div className="blog-post-container">
-        <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
+        <Helmet title={`Sheng - ${post.frontmatter.title}`} />
         <div className="blog-post">
           <h1>{post.frontmatter.title}</h1>
           <div

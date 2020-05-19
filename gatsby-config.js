@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://www.samsheng.my`,
     title: `Sheng`,
     // title: `Sheng - Web Developer. 3D Printing Geek. Fellow Resident Association Enthusiast.`,
     description: `I’m passionate about improving the lives of professionals and organizations by utilizing new technologies`,
@@ -7,6 +8,7 @@ module.exports = {
     keywords: `Web Developer, Malaysia, 3D Printing, Resident Association, Rukun Tetangga`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     {
