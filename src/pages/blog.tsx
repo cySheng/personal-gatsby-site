@@ -21,7 +21,7 @@ export default function Blog({ data }) {
   const { edges: posts } = data.allMarkdownRemark
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Sheng's Blog - Developer. Resident Association Enthusiast. 3D Printer."/>
       <div className="blog-posts">
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)

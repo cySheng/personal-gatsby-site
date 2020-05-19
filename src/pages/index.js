@@ -11,10 +11,10 @@ import Dinosync from "../images/red_dino.png"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Sheng's Blog" />
+    <SEO/>
     <section class="front-page">
       <h1>Hi, I'm Sheng & I'm a Web Developer</h1>
-      <p>I’m passionate about improving the lives of professionals and organizations by utilizing new technologies.</p>
+      <p>I’m passionate about improving the lives of people and organizations through technology.</p>
       {/* <img src="" alt="Sheng - Developer"> */}
     </section>
 

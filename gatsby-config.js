@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://www.samsheng.my`,
-    title: `Sheng`,
-    // title: `Sheng - Web Developer. 3D Printing Geek. Fellow Resident Association Enthusiast.`,
+    title: `Sheng - Developer. Resident Association Enthusiast. 3D Printer.`,
     description: `I’m passionate about improving the lives of professionals and organizations by utilizing new technologies`,
     author: `Sheng`,
     keywords: `Web Developer, Malaysia, 3D Printing, Resident Association, Rukun Tetangga`,
