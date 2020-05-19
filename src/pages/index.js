@@ -11,7 +11,7 @@ import Dinosync from "../images/red_dino.png"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Sheng's Blog" />
     <section class="front-page">
       <h1>Hi, I'm Sheng & I'm a Web Developer</h1>
       <p>I’m passionate about improving the lives of professionals and organizations by utilizing new technologies.</p>
