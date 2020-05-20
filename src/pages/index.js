@@ -19,30 +19,31 @@ const IndexPage = () => (
     </section>
 
     <section class="portfolio">
+      <h2>My Projects</h2>
       <section class="project">
-        <h2>
+        <h3>
           <a href="https://www.buca.my">
             BUCA
           </a>
-        </h2>
+        </h3>
         <img style={{ border: `2px solid rebeccapurple` }} src={Buca} alt="Front page design of the law firm MSSMR"/>
         <p>Progress: Ongoing <span role="img" aria-label="complete">♺</span></p>
         <p>Tech Stack: Ruby on Rails</p>
         <p>An application that assist Resident Associations in managing their security, payments and much more.</p>
       </section>
       <section class="project">
-        <h2>
+        <h3>
           <a href="https://mssmr.com/">
             MSSMR
           </a>
-        </h2>
+        </h3>
         <img style={{ border: `2px solid rebeccapurple` }} src={Mssmr} alt="Front page design of the law firm MSSMR"/>
         <p>Progress: Completed <span role="img" aria-label="complete">✅</span></p>
         <p>Tech Stack: Wordpress</p>
         <p>The client was a law firm who wanted a complete overhaul of their dated website. My team was involved in designing and developing the whole revamped website.</p>
       </section>
       <section class="project">
-        <h2>Dinosync</h2>
+        <h3>Dinosync</h3>
         <img style={{ border: `2px solid rebeccapurple` }} src={Dinosync} alt="Front page design of Dinosync application "/>
         <p>Progress: Completed <span role="img" aria-label="completed">✅</span></p>
         <p>Tech Stack: Ruby on Rails</p>

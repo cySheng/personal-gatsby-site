@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => (
           <Link to="/blog" style={{ textDecoration: `none`, color: `white` }}>Blog</Link>
         </p>
         <p style={{ marginBottom: `0`}}>
-          <Link to="/" style={{ textDecoration: `none`, color: `white` }}>About Me</Link>
+          <Link to="/" style={{ textDecoration: `none`, color: `white` }}>About</Link>
         </p>
       </section>
     </div>

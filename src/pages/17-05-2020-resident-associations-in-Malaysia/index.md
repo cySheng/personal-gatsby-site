@@ -8,11 +8,11 @@ _What is written here is of my own personal experience and opinion, please do yo
 
 This will be the first of many series in talking about Resident Associations & Rukun Tetangga in Malaysia. My aim is to bring more awareness and understanding to the roles of such associations in Malaysia.
 
-Resident Associations (RA) and Rukun Tetanggas (RT) are usually non-profit organizations and its members provide its services  without remuneration. In this day and age, I believe most RA and RT's currently share the same aim which is namely to manage the security of the neighborhood the society operates in.
+Resident Associations (RA) and Rukun Tetanggas (RT) are usually non-profit organizations and its members provide its services  without remuneration. In this day and age, most RA and RT's currently share the same aim which is namely to manage the security of the neighborhood the society operates in. In some situations, RT's are similar to your local neigborhood watch.
 
 To manage security of the neighorhood, associations are usually involved in the hiring of security companies who employ local or foreign guards while ensuring adequate security services are being provided in the neighborhood.
 
-While RA's are able to employ security companies, I have not heard of any RT's that have the luxury to hire such security companies.
+While RA's are able to employ security companies, I have yet to hear of any RT that have the luxury to hire security companies.
 One of the ways RT's mitigate their security issue is by employing part-time 'guards' (e.g. local residents) that are stationed at entrance or exits of a neighborhood. A neigborhood watch is also commonly found in an RT as the residents regularly conduct patrols around their neigborhood. At a police meet and greet event, I witnessed how an RT member explained that he had a full set of security necessity (e.g. torchlight, baton and etc.) at their bedside table ready to respond to any security emergencies in their neigborhood.
 
 Other crucial aims of RT/RA could include:

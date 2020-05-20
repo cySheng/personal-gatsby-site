@@ -624,3 +624,11 @@ pre tt:after {
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 a:visited { text-decoration: none; color: rgb(0, 119, 204);;}
+
+.front-page {
+  text-align: right;
+  margin-left: 15rem;
+  border: 2px solid rebeccapurple;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
