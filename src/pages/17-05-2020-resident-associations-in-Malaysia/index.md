@@ -1,5 +1,5 @@
 ---
-path: "/setting-up-a-resident-association"
+path: "/resident-association-and-rukun-tetangga"
 date: 2020-05-17
 title: "Resident Association Series #1 - Resident Associations & Rukun Tetangga in Malaysia"
 keywords: 'Resident Association, Rukun Tetangga, JMB, MC, Malaysia'
