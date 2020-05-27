@@ -8,6 +8,18 @@ module.exports = {
     pageTitle: `Sheng`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Vollkorn`,
+            variants: [`500`, `700`]
+          },
+        ],
+      },
+    },
     `gatsby-plugin-sitemap`,
      {
       resolve: 'gatsby-plugin-robots-txt',

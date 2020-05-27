@@ -8,46 +8,68 @@ import SEO from "../components/seo"
 import Buca from "../images/buca.png"
 import Mssmr from "../images/mssmr.png"
 import Dinosync from "../images/red_dino.png"
+import ProfilePic from "../images/profile-pic.jpg"
 
 const IndexPage = () => (
   <Layout>
     <SEO/>
     <section class="front-page">
-      <h1>Hi, I'm Sheng & I'm a Web Developer</h1>
-      <p>I’m passionate about improving the lives of people and organizations through technology.</p>
+      <section class="container">
+        <article class="introduction">
+          <h1>Hi, I'm Sheng & I'm a Web Developer</h1>
+          <p>I’m passionate about improving the lives of people and organizations through technology.</p>
+        </article>
+        <img src={ProfilePic} alt="Photo of myself"/>
+      </section>
       {/* <img src="" alt="Sheng - Developer"> */}
     </section>
 
     <section class="portfolio">
-      <h2>My Projects</h2>
-      <section class="project">
-        <h3>
-          <a href="https://www.buca.my">
-            BUCA
-          </a>
-        </h3>
-        <img style={{ border: `2px solid rebeccapurple` }} src={Buca} alt="Front page design of the law firm MSSMR"/>
-        <p>Progress: Ongoing <span role="img" aria-label="complete">♺</span></p>
-        <p>Tech Stack: Ruby on Rails</p>
-        <p>An application that assist Resident Associations in managing their security, payments and much more.</p>
-      </section>
-      <section class="project">
-        <h3>
-          <a href="https://mssmr.com/">
-            MSSMR
-          </a>
-        </h3>
-        <img style={{ border: `2px solid rebeccapurple` }} src={Mssmr} alt="Front page design of the law firm MSSMR"/>
-        <p>Progress: Completed <span role="img" aria-label="complete">✅</span></p>
-        <p>Tech Stack: Wordpress</p>
-        <p>The client was a law firm who wanted a complete overhaul of their dated website. My team was involved in designing and developing the whole revamped website.</p>
-      </section>
-      <section class="project">
-        <h3>Dinosync</h3>
-        <img style={{ border: `2px solid rebeccapurple` }} src={Dinosync} alt="Front page design of Dinosync application "/>
-        <p>Progress: Completed <span role="img" aria-label="completed">✅</span></p>
-        <p>Tech Stack: Ruby on Rails</p>
-        <p>My team worked with the client involved in prototyping a proof of concept application which primarily catered for e-commerce sellers. The application acted as a centralized inventory management system that assisted sellers in easily managing and update inventories on various different e-commerce platform.</p>
+      <section class="portfolio-container">
+        <h2>Projects</h2>
+        <section class="projects">
+          <section class="project">
+            <section class="header">
+              <h3>
+                <a href="https://www.buca.my">
+                  BUCA
+                </a>
+              </h3>
+            </section>
+            <img src={Buca} alt="Front page design of the law firm MSSMR"/>
+            <section class="content">
+              <p><span class="label">Progress</span>: Ongoing <span role="img" aria-label="complete">♺</span></p>
+              <p><span class="label">Tech Stack</span>: Ruby on Rails</p>
+              <p>The Resident Association Solution.</p>
+            </section>
+          </section>
+          <section class="project">
+            <section class="header">
+              <h3>
+                <a href="https://mssmr.com/">
+                  MSSMR
+                </a>
+              </h3>
+            </section>
+            <img src={Mssmr} alt="Front page design of the law firm MSSMR"/>
+            <section class="content">
+              <p><span class="label">Progress</span>: Completed <span role="img" aria-label="complete">✅</span></p>
+              <p><span class="label">Tech Stack</span>: Wordpress</p>
+              <p>The Law Service.</p>
+            </section>
+          </section>
+          <section class="project">
+            <section class="header">
+              <h3>Dinosync</h3>
+            </section>
+            <img src={Dinosync} alt="Front page design of Dinosync application "/>
+            <section class="content">
+              <p><span class="label">Progress</span>: Completed <span role="img" aria-label="completed">✅</span></p>
+              <p><span class="label">Tech Stack</span>: Ruby on Rails</p>
+              <p>Rapid prototype of the Marketplace Integration solution.</p>
+            </section>
+          </section>
+        </section>
       </section>
     </section>
     {/* <h1>Hi people</h1>
