@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.scss"
 import "./index.scss"
+import Github from "../images/github.png"
 
 
 const Layout = ({ children }) => {
@@ -31,9 +32,10 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer>
-          Samsheng © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <section class="left">
+            <a href="https://github.com/cySheng"><img src={Github} alt="Front page design of the law firm MSSMR"/></a>
+            <p>Samsheng © {new Date().getFullYear()}</p>
+          </section>
         </footer>
       </div>
     </>

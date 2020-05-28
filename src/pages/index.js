@@ -19,7 +19,7 @@ const IndexPage = () => (
           <h1>Hi, I'm Sheng & I'm a Web Developer</h1>
           <p>I’m passionate about improving the lives of people and organizations through technology.</p>
         </article>
-        <img src={ProfilePic} alt="Photo of myself"/>
+        <img src={ProfilePic} alt="Myself"/>
       </section>
       {/* <img src="" alt="Sheng - Developer"> */}
     </section>

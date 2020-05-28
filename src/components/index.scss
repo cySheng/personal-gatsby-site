@@ -5,6 +5,10 @@
   padding-top: 2rem;
   // margin-bottom: 2rem;
 
+  @media screen and (max-width: 560px) {
+    padding: 2rem 0.5rem;
+  }
+
   @media screen and (min-width: 1032px) {
     height: 85vh;
     margin-bottom: 13rem;
@@ -30,8 +34,12 @@
     }
 
     @media screen and (min-width: 1032px) {
-      margin-left: 16rem;
+      margin-left: 20rem;
       padding: 2rem 4rem 4rem 8rem;
+    }
+
+    @media screen and (max-width: 560px) {
+      padding: 0.5rem;
     }
 
     h1 {
@@ -40,12 +48,24 @@
   }
 
   img {
-    max-width: 400px;
-    position: relative;
-    margin-top: -150px;
-    border-radius: 5px;
+
+
+    @media screen and (min-width: 1032px) {
+      max-width: 400px;
+      position: relative;
+      margin-top: -150px;
+      border-radius: 5px;
+    }
+
+
+    @media screen and (max-width: 560px) {
+
+      margin: 0 0.3rem 0 0.3rem;
+      max-width: auto;
+    }
 
     @media screen and (max-width: 1032px) {
+      max-width: 400px;
       margin-top: -20px;
       margin-left: auto;
       margin-right: auto;
@@ -60,7 +80,8 @@
 .portfolio-container {
   max-width: 960px;
   // padding: 0 3rem;
-  margin: 0 auto;
+  margin: 4rem auto;
+
 
   h2 {
     text-align: center;
@@ -76,7 +97,7 @@
 }
 
 .project {
-  max-width: 400px;
+  max-width: 300px;
   // border: 3px solid #74abce;
   background-color: white;
   border-radius: 5px;
@@ -92,5 +113,26 @@
   }
   .header, .content {
     padding: 1rem;
+  }
+}
+
+footer {
+  background-color: white;
+  padding: 1rem 0.5rem;
+}
+
+footer .left {
+  display: flex;
+  align-items: center;
+  img {
+    width: 32px;
+  }
+
+  p, img {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-left: 1rem;
   }
 }

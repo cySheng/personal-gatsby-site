@@ -10,7 +10,7 @@ body {
 }
 
 html, body {
-  font-family: "Vollkorn";
+  font-family: "Poppins";
   background-color: #eeeef5;
 }
 
@@ -191,7 +191,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  // font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -634,4 +634,37 @@ a:visited { text-decoration: none; color: rgb(0, 119, 204);;}
 header {
   background-color: #74abce;
   // margin-bottom: 1.45rem;
+}
+
+.blog-posts {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.blog-post-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+footer {
+  // position: absolute;
+// bottom: 0;
+// width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  min-height: calc(100vh - 86px - 57px);
+}
+
+footer .right {
+  padding-right: 1rem;
+
+
+  p {
+    margin-bottom: 0;
+  }
 }
