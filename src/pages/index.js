@@ -38,7 +38,7 @@ const IndexPage = () => (
             </section>
             <img src={Buca} alt="Front page design of the law firm MSSMR"/>
             <section class="content">
-              <p><span class="label">Progress</span>: Ongoing <span role="img" aria-label="complete">♺</span></p>
+              <p><span class="label">Progress</span>: Completed <span role="img" aria-label="complete">✅</span></p>
               <p><span class="label">Tech Stack</span>: Ruby on Rails</p>
               <p>The Resident Association Solution.</p>
             </section>
