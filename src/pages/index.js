@@ -12,7 +12,7 @@ import ProfilePic from "../images/profile-pic.jpg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO/>
+    <SEO title="Sheng - Web Developer. Resident Association Enthusiast. 3D Printer."/>
     <section class="front-page">
       <section class="container">
         <article class="introduction">
