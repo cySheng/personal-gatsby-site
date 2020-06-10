@@ -5,7 +5,7 @@ module.exports = {
     description: `I’m passionate about improving the lives of professionals and organizations by utilizing new technologies`,
     author: `Sheng`,
     keywords: `Web Developer, Malaysia, 3D Printing, Resident Association, Rukun Tetangga`,
-    pageTitle: `Sheng`,
+    // pageTitle: `Sheng`,
   },
   plugins: [
     `gatsby-plugin-sass`,
