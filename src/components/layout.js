@@ -37,6 +37,9 @@ const Layout = ({ children }) => {
             <a href="https://github.com/cySheng"><img src={Github} alt="Front page design of the law firm MSSMR"/></a>
             <p>Samsheng © {new Date().getFullYear()}</p>
           </section>
+          <section class="right">
+            <p><a href="mailto: hello@samsheng.my">hello@samsheng.my</a></p>
+          </section>
         </footer>
       </div>
     </>
